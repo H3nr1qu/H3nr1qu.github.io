@@ -1,0 +1,58 @@
+ body{
+  margin: 0;
+
+
+
+ }
+  
+
+
+ .navbar{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  
+ }
+
+  .navbar div{
+
+  display: flex;
+  height: 80px;
+  align-items: center;
+  }
+
+
+
+ .navbar a{
+  background-color: rgb(108, 33, 138);
+  color: rgb(212, 212, 212);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+ }
+
+
+ .navbar a:hover{
+  background-color: rgb(24, 219, 66);
+  text-decoration: underline;
+
+
+ }
+
+ .navbar img{
+  height: 50px;
+
+
+
+ }
+
+
+
