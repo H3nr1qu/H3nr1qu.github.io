@@ -8,9 +8,9 @@
 
 
  .navbar{
-  background-color: rgb(0, 0, 0);
+  background-color: #1c1c20;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   height: 80px;
@@ -23,33 +23,33 @@
 
   display: flex;
   height: 80px;
-  align-items: center;
+  align-items: center
   }
 
 
 
  .navbar a{
-  background-color: rgb(108, 33, 138);
-  color: rgb(212, 212, 212);
+  color: rgb(245, 239, 239);
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 15px;
   height: 100%;
   display: flex;
   align-items: center;
+  
  }
 
 
  .navbar a:hover{
-  background-color: rgb(24, 219, 66);
-  text-decoration: underline;
+  color:rgba(202, 202, 228, 0.863);
+  
 
 
  }
 
  .navbar img{
-  height: 50px;
-
+  height: 55px;
+  color: #1c1c2b;
 
 
  }
