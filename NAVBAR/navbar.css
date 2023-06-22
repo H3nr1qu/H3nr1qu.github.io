@@ -1,0 +1,104 @@
+ body{
+  margin: 0;
+   background-color: dimgrey;
+   margin-top: 80px;
+
+
+ }
+  
+
+
+ .navbar{
+  background-color: #1c1c20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+ }
+
+  .navbar div{
+
+  display: flex;
+  height: 80px;
+  align-items: center
+  }
+
+
+
+ .navbar a{
+  color: rgb(245, 239, 239);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+ }
+
+
+ .navbar a:hover{
+  color:rgba(202, 202, 228, 0.863);
+  
+
+
+ }
+
+ #logo{
+  font-size: 45px;
+  color: #aaaabe;
+
+
+ }
+ 
+
+.cards{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
