@@ -2,7 +2,7 @@
   margin: 0;
    background-color: dimgrey;
    margin-top: 80px;
-
+   text-align: center;
 
  }
   
@@ -54,31 +54,85 @@
 
 
  }
- 
+
+
 
 .cards{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-}
-
-
-
-
+  
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 25px;
+ padding: 25px;
+ }
+ 
+ .cards > div{
+ background-color: rgb(201, 186, 186);
+ width: 200px;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius:5%;
+ }
+ 
+ 
+ .cards > div >img{
+ width: 100%;
+ height: 130px;
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ .cards > div:hover{
+ background-color: rgb(238, 192, 192);
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .cards > div > div{
+  height: 70px;
+ 
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+ 
+ 
+ }
+ 
+ .cards > div > div > div{
+  
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 
