@@ -1,0 +1,72 @@
+body{
+background-color: black;    
+}
+
+
+.navbar{
+background-color: dimgrey;
+display: flex;
+justify-content: space-evenly;
+
+
+
+}
+
+.dropdown div{
+background-color: aqua;
+position: absolute;
+display: flex;
+flex-direction: column;
+
+}
+
+.dropdown div a{
+display: none;
+
+
+
+
+}
+
+.dropdown:hover div a{
+display: block;
+
+
+
+}
+
+@media (max-width: 900px) {
+    body{
+   background-color: blue;}
+}
+
+
+@media (max-width: 700px) {
+
+    body{
+        background-color: chartreuse;}
+
+    
+}
+    
+
+@media (max-width: 500px) {
+
+
+    body{
+        background-color: chocolate;
+
+    
+}
+
+
+}
+
+  
+    
+
+
+
+
+
+
