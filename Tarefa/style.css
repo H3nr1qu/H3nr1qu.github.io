@@ -4,25 +4,58 @@ margin-top: 80px;
 }
 
 .navbar{
-background-color: red;
+background-color: rgb(59, 85, 235);
 height: 80px;
 width: 100%;
 position: fixed;
 top: 0;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.navbar > a, .dropdown{
+background-color: aqua;
+padding: 5px;
+border-radius: 5px;
+color: white;
+}
+
+.navbar a:hover{
+background-color: rgb(2, 134, 73);
 
 }
+
+.dropdown{
+    display: none;
+}
+
+.dropdown div{
+ background-color: aqua;   
+ border-radius: 5px;
+position: absolute;
+display: flex;
+flex-direction: column;
+display: none;
+}
+
+.dropdown:hover div{
+display: flex;
+}
+
 
 .corpo{
 display: flex;
 margin: 0 30px;
 margin-top: 30px;
-justify-content: right
-
+justify-content: right;
 }
 
 
 .lateral{
-background-color: blue;
+background-color: rgb(255, 0, 0);
 border-radius: 10px;
 width: 200px;
 height: 100vh;
@@ -35,9 +68,34 @@ left: 30px;
 .main{
  background-color: yellow;
 width: calc(100% - 230px);
+border-radius: 10px;
+}
+
+
+
+@media (max-width: 800px){
+.lateral{
+ display: none;   
+}
+
+
+.main{
+width:100%;
+
+}
+}
+@media(max-width: 500px){
+.navbar> a{
+display: none;
+}
+
+
+.dropdown{
+display: block;
 
 }
 
+}
 
 
 
