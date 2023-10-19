@@ -25,7 +25,7 @@ text-decoration: none;
 }
 
 .navegar{
-background-color: rgb(177, 173, 173);
+background-color: rgb(17, 0, 252);
 height: 80px;
 width: 100%;
 position: fixed;
@@ -40,8 +40,15 @@ gap: 20px;
 .navegar a{
 color: black;
 text-decoration: none;
+
 }
- 
+
+.logo{
+height: 20px;  
+width: 36px;
+background-color:white ;
+}
+
 
 .dropdown div{
  background-color: rgb(255, 255, 255);
@@ -50,13 +57,19 @@ text-decoration: none;
  flex-direction: column;
     }
     
-  .dropdown div a{ 
+    .dropdown div a{ 
   display: none;
   color: rgb(0, 0, 0);
     
 
     }
     
+   .dropdown div a :hover{
+background-color: #27ae60;
+
+   }
+
+
     .dropdown:hover div a{ 
     display: block;
     }    
@@ -74,6 +87,7 @@ text-decoration: none;
    width: 400%;
    height: 400px;
    display: flex;
+   
      }
       
    .slides input{
@@ -263,31 +277,23 @@ padding: 25px;
     .navegar{
      display: none;   
     }
-    
-    
-    .main{
-    width:100%;
-    
-    }
-    }
-    @media(max-width: 500px){
-      .navbar{
-     position: fixed;
-
-      }
-    .navbar> a{
-    display: none;
-    
-    }
-    
-    
-    .dropdown{
-    display: block;
+    .navbar{
+      position: fixed;
+ 
+       }
+       .navbar> a{
+        display: none;
+        
+        }
+        
+        
+        .dropdown{
+        display: block;
+        
+        }
     
     }
     
-    }
-
 
 
 
