@@ -27,6 +27,7 @@ text-decoration: none;
 .navbar a:hover{
 background-color: blue;
 color: aqua;
+transition: 1s;
 }
 
 .navegar{
@@ -47,6 +48,8 @@ color: black;
 text-decoration: none;
 
 }
+
+
 
 .logo{
 height: 20px;  
