@@ -7,7 +7,7 @@ margin-top: 80px;
 
 
 .navbar{
-background-color: rgb(214, 64, 64);
+background-color: rgb(240, 240, 240);
 height: 80px;
 width: 100%;
 position: static;
@@ -22,6 +22,11 @@ gap: 20px;
 .navbar a{
 color: black;
 text-decoration: none;
+}
+
+.navbar a:hover{
+background-color: blue;
+color: aqua;
 }
 
 .navegar{
@@ -65,7 +70,7 @@ background-color:white ;
     }
     
    .dropdown div a :hover{
-background-color: #27ae60;
+background-color: aqua
 
    }
 
@@ -183,7 +188,7 @@ background-color: #27ae60;
 
 
 .cards{
-background-color: rgb(16, 90, 112);
+background-color: rgb(0, 3, 204);
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -219,7 +224,7 @@ padding: 25px;
 
             
   .cards > div:hover{
-  background-color: rgb(88, 69, 173);
+  background-color: rgb(0, 247, 214);
  
 
   }
@@ -294,6 +299,13 @@ padding: 25px;
     
     }
     
+
+
+
+
+
+
+
 
 
 
