@@ -30,7 +30,7 @@ color: aqua;
 }
 
 .navegar{
-background-color: rgb(17, 0, 252);
+background-color:darkblue;
 height: 80px;
 width: 100%;
 position: fixed;
@@ -54,6 +54,11 @@ width: 36px;
 background-color:white ;
 }
 
+.dropdown{
+display: none;
+z-index: 10;
+
+}
 
 .dropdown div{
  background-color: rgb(255, 255, 255);
@@ -69,10 +74,13 @@ background-color:white ;
 
     }
     
-   .dropdown div a :hover{
-background-color: aqua
+ 
+    .dropdown:hover{
+    background-color: blue;
+    color: aqua;
 
-   }
+    }
+
 
 
     .dropdown:hover div a{ 
@@ -92,7 +100,7 @@ background-color: aqua
    width: 400%;
    height: 400px;
    display: flex;
-   
+   margin-top: 30px;
      }
       
    .slides input{
@@ -188,13 +196,12 @@ background-color: aqua
 
 
 .cards{
-background-color: rgb(0, 3, 204);
+background-color: darkblue;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 gap: 25px;
 padding: 25px;
-
 }
           
           
@@ -208,9 +215,9 @@ padding: 25px;
   flex-direction: column;
   gap: 10px;
   padding: 5px;
-  border: 2px solid black;
+  border: 5px solid black;
   border-radius: 8px;
-
+ 
   }
             
             
@@ -225,8 +232,8 @@ padding: 25px;
             
   .cards > div:hover{
   background-color: rgb(0, 247, 214);
- 
-
+  box-shadow: 10px 10px black;
+  transition: 1s;
   }
             
             
@@ -299,12 +306,15 @@ padding: 25px;
     
     }
     
+  .main{
+ background-color: rgb(0, 101, 233);
+  }
 
 
-
-
-
-
+.card{
+  background-color: white;
+ 
+}
 
 
 
