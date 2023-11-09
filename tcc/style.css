@@ -310,25 +310,32 @@ padding: 25px;
     }
     
   .main{
- background-color: rgb(0, 101, 233);
+ background-color: rgb(4, 59, 131);
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 5px;
   }
 
 
 .card{
-  background-color: white;
- padding: 20px;
+  background-color: rgb(255, 255, 255);
+ display: flex;
+ gap: 100px;
+ padding: 45px;
+}
+
+.card img{
+border: 5px solid rgba(0, 0, 0, 0.185);
 }
 
 
 
-
-
-
 footer{
-background-color: #ffef0f;
-color: #fff;
+background-color: rgb(78, 4, 91);
+color: #ffffff;
 text-align: center;
-padding: 10px;
+padding: 20px;
 position: fixed;
 bottom: 0;
 width: 100%;
