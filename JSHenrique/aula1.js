@@ -14,11 +14,13 @@
 // && logico And
 // || logico OR
 
-clicks = 0
+contagem = 0
 
 function teste(){
-clicks +=1
-document.getElementById('contagem').innerHTML = 'Contagem De Clicks: ' +clicks
+    
+ valor= parseInt(document.getElementById("valor").value)
+ contagem += valor
+ document.getElementById('resultado').innerHTML = contagem
+
 
 }
-
